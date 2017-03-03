@@ -7,4 +7,13 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'app works!';
+
+  hitMe(){
+    window.alert("Hello World");
+  }
+
+  hitMeAgain(){
+    alert("Hello World");
+  }
+
 }
